@@ -92,3 +92,21 @@ footer{padding:36px 0 50px;color:var(--muted);font-size:.88rem;border-top:1px so
 }
 td.date{white-space:nowrap}
 .grid.four{grid-template-columns:repeat(auto-fit,minmax(200px,1fr))}
+
+/* day pages */
+.daynav{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;margin:22px 0;padding:12px 16px;background:var(--card);border:1px solid var(--line);border-radius:12px}
+.daynav a{color:var(--gold2);text-decoration:none;font-weight:600}.daynav .off{color:var(--muted)}
+.jump{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0 6px}
+.jump a{border:1px solid var(--gold);color:var(--gold2);text-decoration:none;border-radius:999px;padding:6px 14px;font-weight:600;font-size:.92rem}
+.mini{font-size:.9rem;color:var(--muted);margin:-4px 0 14px}.mini a{color:var(--gold)}
+.example{margin-top:22px;background:var(--card);border:1px solid var(--line);border-left:4px solid var(--gold);border-radius:12px;padding:16px 20px}
+.res div.item.card{display:block;background:var(--card);border:1px dashed var(--gold);border-radius:12px;padding:16px 18px}
+.daygrid{display:grid;gap:12px;grid-template-columns:repeat(auto-fill,minmax(250px,1fr))}
+.daycard{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px;scroll-margin-top:80px}
+.daycard.today{border-color:var(--gold);box-shadow:0 0 0 1px var(--gold)}
+.daycard a.dt{color:var(--text);text-decoration:none;display:block}.daycard a.dt:hover strong{color:var(--gold2)}
+.daycard .dn{color:var(--gold);font-weight:700}
+.chips{display:flex;gap:6px;margin-top:10px;flex-wrap:wrap}
+.chips a{font-size:.78rem;text-transform:uppercase;letter-spacing:.08em;color:var(--gold2);border:1px solid var(--line);border-radius:999px;padding:2px 10px;text-decoration:none}
+.chips a:hover{border-color:var(--gold)}
+section[id]{scroll-margin-top:80px}
